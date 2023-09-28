@@ -20,11 +20,13 @@ const UserSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-    
     unique identity: {
       type: String,
       required: true,
-
+    }
+    passkey: {
+      type: Float,
+      required: true,
     }
     
   },
