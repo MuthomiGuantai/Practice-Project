@@ -23,12 +23,15 @@ const UserSchema = new mongoose.Schema(
     unique identity: {
       type: String,
       required: true,
-    }
+    },
     passkey: {
       type: Float,
       required: true,
     }
-    
+    Tcp code: {
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );
