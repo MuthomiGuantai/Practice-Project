@@ -27,6 +27,10 @@ const PostSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    Socials: {
+      type: Float32Array,
+      required: false,
+    }
   },
   { timestamps: true }
 );
